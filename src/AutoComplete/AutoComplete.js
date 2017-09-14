@@ -347,6 +347,7 @@ class AutoComplete extends Component {
     const state = {
       open: true,
       anchorEl: ReactDOM.findDOMNode(this.refs.searchTextField),
+      searchText: searchText
     };
 
     if (this.props.searchText === undefined) {
